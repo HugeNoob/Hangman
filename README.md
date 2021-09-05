@@ -1,0 +1,2 @@
+# Hangman
+Trying out Javascript.
