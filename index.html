@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href='style.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Hangman</title>
+</head>
+
+<body style="background-color: lightblue;">
+
+    <div class='wrapper' style='margin-top: 30px;'>
+        <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Hangman! </h1>
+        <p id='question-word' style="margin-top: 30px; font-size: 50px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"></p>
+    </div>
+
+    <div id='health-bar' class="d-flex justify-content-center" style="margin-bottom: 10px;"></div>
+
+    <div id='keyboard'>
+        <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-dark">Q</button>
+            <button type="button" class="btn btn-outline-dark">W</button>
+            <button type="button" class="btn btn-outline-dark">E</button>
+            <button type="button" class="btn btn-outline-dark">R</button>
+            <button type="button" class="btn btn-outline-dark">T</button>
+            <button type="button" class="btn btn-outline-dark">Y</button>
+            <button type="button" class="btn btn-outline-dark">U</button>
+            <button type="button" class="btn btn-outline-dark">I</button>
+            <button type="button" class="btn btn-outline-dark">O</button>
+            <button type="button" class="btn btn-outline-dark">P</button>
+        </div>
+        <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-dark">A</button>
+            <button type="button" class="btn btn-outline-dark">S</button>
+            <button type="button" class="btn btn-outline-dark">D</button>
+            <button type="button" class="btn btn-outline-dark">F</button>
+            <button type="button" class="btn btn-outline-dark">G</button>
+            <button type="button" class="btn btn-outline-dark">H</button>
+            <button type="button" class="btn btn-outline-dark">J</button>
+            <button type="button" class="btn btn-outline-dark">K</button>
+            <button type="button" class="btn btn-outline-dark">L</button>
+        </div>
+        <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-dark">Z</button>
+            <button type="button" class="btn btn-outline-dark">X</button>
+            <button type="button" class="btn btn-outline-dark">C</button>
+            <button type="button" class="btn btn-outline-dark">V</button>
+            <button type="button" class="btn btn-outline-dark">B</button>
+            <button type="button" class="btn btn-outline-dark">N</button>
+            <button type="button" class="btn btn-outline-dark">M</button>
+        </div>
+    </div>
+
+    <div class="btn-group d-flex justify-content-center" style="margin-top: 50px;">
+        <button onClick="showAns();" type="button" class="btn btn-outline-info ">Show Answer</button>
+        <button onClick="window.location.reload();" type="button" class="btn btn-outline-info ">New Word</button>
+        <button onClick="hint()" type="button" class="btn btn-outline-info ">Hint</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src='script.js'></script>
+</body>
+</html>
