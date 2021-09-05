@@ -1,11 +1,13 @@
-Nothing much.  
+#Hangman
+
+Simple project done in two days.  
 
 
-
-![Screenshot 2021-09-06 at 02-36-08 Hangman](https://user-images.githubusercontent.com/65714641/132137756-d9170a1a-a71e-4335-ad92-5524cc7241aa.png)  
-
-
-![Screenshot 2021-09-06 at 02-34-35 Hangman](https://user-images.githubusercontent.com/65714641/132137757-6f856746-29e4-4436-9b3a-a11823e8ba0d.png)  
+![Screenshot 2021-09-06 at 02-34-35 Hangman](https://user-images.githubusercontent.com/65714641/132137827-d8cd8ae5-83b1-4000-b4a8-390b7d6d574d.png)  
 
 
-![Screenshot 2021-09-06 at 02-34-35 Hangman](https://user-images.githubusercontent.com/65714641/132137795-67d74cc7-f3b1-4522-b9dc-e243f104b442.png)
+![Screenshot 2021-09-06 at 02-35-21 Hangman](https://user-images.githubusercontent.com/65714641/132137833-16e7c93c-ce06-41b7-8680-8481d77c3d43.png)  
+
+
+![Screenshot 2021-09-06 at 02-36-08 Hangman](https://user-images.githubusercontent.com/65714641/132137840-a9964ca4-fdb3-404e-b8a1-6fb55ac07d45.png)  
+
